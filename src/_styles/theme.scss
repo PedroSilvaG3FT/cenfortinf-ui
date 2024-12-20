@@ -18,7 +18,7 @@
     --card-foreground: 20 14.3% 4.1%;
     --popover: 0 0% 100%;
     --popover-foreground: 20 14.3% 4.1%;
-    --primary: 47.9 95.8% 53.1%;
+    --primary: 198 76% 37%;
     --primary-foreground: 26 83.3% 14.1%;
     --secondary: 60 4.8% 95.9%;
     --secondary-foreground: 24 9.8% 10%;
@@ -37,6 +37,18 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
+
+    --app-red: 13 90% 54%;
+    --app-blue: 197 98% 55%;
+    --app-green: 157 95% 42%;
+    --app-dark-blue: 204 81% 13%;
+
+    --app-purple: 266 100% 64%;
+    --app-purple-1: 253 59% 53%;
+    --app-purple-2: 268 76% 38%;
+    --app-purple-3: 266 77% 27%;
+    --app-purple-4: 248 54% 50%;
+    --app-bg-purple: 254 84% 66%;
   }
 
   .dark {
@@ -46,7 +58,7 @@
     --card-foreground: 60 9.1% 97.8%;
     --popover: 20 14.3% 4.1%;
     --popover-foreground: 60 9.1% 97.8%;
-    --primary: 47.9 95.8% 53.1%;
+    --primary: 198 76% 37%;
     --primary-foreground: 26 83.3% 14.1%;
     --secondary: 12 6.5% 15.1%;
     --secondary-foreground: 60 9.1% 97.8%;
@@ -64,5 +76,17 @@
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+
+    --app-red: 13 90% 54%;
+    --app-blue: 197 98% 55%;
+    --app-green: 157 95% 42%;
+    --app-dark-blue: 204 81% 13%;
+
+    --app-purple: 266 100% 64%;
+    --app-purple-1: 253 59% 53%;
+    --app-purple-2: 268 76% 38%;
+    --app-purple-3: 266 77% 27%;
+    --app-purple-4: 248 54% 50%;
+    --app-bg-purple: 254 84% 66%;
   }
 }

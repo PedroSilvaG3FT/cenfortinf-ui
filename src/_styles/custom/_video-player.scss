@@ -1,0 +1,62 @@
+.app-video-player {
+  .default {
+    $background: hsl(var(--app-dark-blue));
+
+    color: white;
+    background: $background;
+
+    > button {
+      background: $background;
+    }
+  }
+
+  .red {
+    $background: hsl(var(--app-red));
+    background: $background;
+
+    > button {
+      background: $background;
+    }
+  }
+
+  .blue {
+    $background: hsl(var(--app-blue));
+
+    background: $background;
+    color: hsl(var(--primary-foreground));
+
+    > button {
+      background: $background;
+    }
+  }
+
+  .green {
+    $background: hsl(var(--app-green));
+
+    background: $background;
+    color: hsl(var(--primary-foreground));
+
+    > button {
+      background: $background;
+    }
+  }
+
+  .purple {
+    $background: hsl(var(--app-purple));
+    background: $background;
+
+    > button {
+      background: $background;
+    }
+  }
+
+  .dark {
+    $background: hsl(0, 1%, 33%);
+    background: $background;
+    color: white;
+
+    > button {
+      background: $background;
+    }
+  }
+}

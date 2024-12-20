@@ -11,7 +11,7 @@ export interface InputProps
 
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
   ({ className, type = "text", mask, maxLength, ...props }, ref) => {
-    const InputComponent = mask ? InputMask : "input";
+    const InputComponent: any = mask ? InputMask : "input";
     const [isShowPass, setIsShowPass] = React.useState(false);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {

@@ -1,0 +1,10 @@
+.landing-hero-border {
+  $color: hsl(var(--background));
+
+  z-index: 1;
+  box-shadow: -36px 6px 0px 0px $color, -4px 10px 0px 0px $color;
+}
+
+.landing-bg {
+  background: hsl(var(--app-green));
+}
