@@ -12,8 +12,8 @@ export default function LandingPageLesson() {
   return (
     <section>
       <section className="app-container">
-        <h2>Experimente Nossa Aula Gratuita</h2>
-        <p className="my-6">
+        <h2 className="mobile:text-center">Experimente Nossa Aula Gratuita</h2>
+        <p className="my-6 mobile:text-center">
           Descubra a qualidade do nosso ensino com uma aula gratuita.
           <br />
           Mergulhe em conteúdos relevantes, apresentados de forma clara e

@@ -36,9 +36,9 @@ export default function LandingPageAbout() {
           </figure>
 
           <section>
-            <h2 className="mb-4">Sobre nós</h2>
+            <h2 className="mb-4 mobile:text-center">Sobre nós</h2>
 
-            <p className="w-4/5">
+            <p className="w-4/5 mobile:w-full mobile:text-center">
               Somos uma equipe dedicada a compartilhar o conhecimento da Palavra
               de Deus de forma clara, acessível e transformadora. Nosso curso de
               teologia foi desenvolvido para ajudar você a aprofundar sua fé,
@@ -52,7 +52,9 @@ export default function LandingPageAbout() {
           </section>
         </div>
 
-        <h4 className="font-semibold my-6">Confira alguns modulos: </h4>
+        <h4 className="font-semibold my-6 mobile:text-center">
+          Confira alguns modulos:{" "}
+        </h4>
 
         <section className="w-full grid grid-cols-4 tablet:grid-cols-2 mobile:grid-cols-1 relative z-10">
           <Each

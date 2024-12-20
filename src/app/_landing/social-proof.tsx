@@ -23,7 +23,7 @@ export default function LandingPageSocialProof() {
       title: `92%`,
       textColor: `text-green-500`,
       borderHover: `hover:!border-green-500`,
-      description: `Recomendam o curso`,
+      description: `De recomendação`,
     },
     {
       title: `99,8%`,
@@ -44,7 +44,7 @@ export default function LandingPageSocialProof() {
           return (
             <article
               className={cn(
-                "flex gap-4 items-center p-1 rounded-full border border-white/30 transition-all duration-500 hover:scale-105 select-none",
+                "flex gap-4 items-center p-1 rounded-full border border-white/30 transition-all duration-500 hover:scale-105 select-none mobile:justify-center",
                 item.borderHover
               )}
             >
