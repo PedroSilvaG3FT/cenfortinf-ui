@@ -3,6 +3,7 @@ import LandingPageSocialProof from "./social-proof";
 import { TESTIMONY_DATA } from "./_data/testimony.data";
 import { CardStack } from "@/_core/components/fragments/card-stack";
 import { FlipWords } from "@/_core/components/fragments/ui/flip-words";
+import LandingPageSubscribeButton from "./elements/subscribe-button";
 
 export default function LandingPageHero() {
   return (
@@ -18,7 +19,7 @@ export default function LandingPageHero() {
           </h1>
 
           <FlipWords
-            className="text-xl relative -left-2 mt-4 !text-white mobile:w-full mobile:text-center mobile:my-6"
+            className="text-xl relative -left-2 mt-4 !text-white mobile:w-full mobile:text-center mobile:mt-4"
             words={[
               "Viva o Evangelho",
               "Aprofunde sua fé",
@@ -28,7 +29,11 @@ export default function LandingPageHero() {
             ]}
           />
 
-          <p className="my-12 mobile:text-center">
+          <section className="hidden mt-4 mobile:flex items-center justify-center">
+            <LandingPageSubscribeButton />
+          </section>
+
+          <p className="my-12 mobile:text-center mobile:my-6">
             Nosso curso oferece um estudo profundo da Palavra de Deus, com
             materiais atualizados e suporte contínuo para transformar sua visão
             espiritual.

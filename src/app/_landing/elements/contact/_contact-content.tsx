@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Mail } from "lucide-react";
-import { useTranslations } from "next-intl";
 import Each from "@/_shared/components/app-each";
 import { IconBrandWhatsapp } from "@tabler/icons-react";
 import { Button } from "@/_core/components/fragments/button";
@@ -8,8 +7,6 @@ import { WhatsAppUtil } from "@/_shared/utils/whatsapp.util";
 import { Separator } from "@/_core/components/fragments/separator";
 
 export default function ContactContent() {
-  const t = useTranslations();
-
   const phoneNumberRedirect = WhatsAppUtil.buildLink(
     WhatsAppUtil.contacts.service,
     `Olá, gostaria de conversar com um representante.`
@@ -46,7 +43,7 @@ export default function ContactContent() {
         </Button>
 
         <Button variant="secondary" asChild className="rounded-full">
-          <Link href="mailto:gerencia@supicom.com.br">
+          <Link href="mailto:contato@cenfortinf.com.br">
             <Mail />
           </Link>
         </Button>
